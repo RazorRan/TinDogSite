@@ -137,6 +137,9 @@ nav {
     text-align: center;
   }
 
+.head{
+  margin: auto;
+}
   .pic {
     text-align: center;
   }
@@ -144,9 +147,10 @@ nav {
     width: 28%;
     margin-left: 16.5rem;
     color: #8f8f8f;
+    line-height: 1.5;
   }
   .icons{
-    line-height: 2;
+    padding: 20px 0 4px;
   }
 }
 
