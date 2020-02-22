@@ -140,6 +140,14 @@ nav {
   .pic {
     text-align: center;
   }
+  .ph {
+    width: 28%;
+    margin-left: 16.5rem;
+    color: #8f8f8f;
+  }
+  .icons{
+    line-height: 2;
+  }
 }
 
 /* Cta */
