@@ -7,6 +7,11 @@ nav {
   padding: 0 0 5rem !important;
 }
 
+a{
+  color:inherit !important;
+  text-decoration: none;
+}
+
 .text-center{
   text-align: center;
 }
@@ -128,15 +133,23 @@ nav {
 
 /* Mobile Viewport */
 @media (max-width:1000px) {
+  /* Title nav  */
+  nav {
+    margin-bottom: 1px;
+    padding: 0 0 3rem !important;
+  }
+
+  /* Title Photo */
   .photo {
     position: static;
     transform: rotate(0);
   }
 
+/* Pricing */
   .menu {
     text-align: center;
   }
-
+/* Features section */
 .head{
   margin: auto;
 }
@@ -151,6 +164,9 @@ nav {
   }
   .icons{
     padding: 20px 0 4px;
+  }
+  .text-center{
+    text-align: center;
   }
 }
 
